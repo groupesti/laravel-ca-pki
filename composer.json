@@ -1,0 +1,32 @@
+{
+    "name": "groupesti/laravel-ca-pki",
+    "description": "Complete PKI system for Laravel - installs all CA packages",
+    "type": "metapackage",
+    "license": "MIT",
+    "require": {
+        "php": "^8.4",
+        "groupesti/laravel-ca": "^0.1",
+        "groupesti/laravel-ca-key": "^0.1",
+        "groupesti/laravel-ca-csr": "^0.1",
+        "groupesti/laravel-ca-crt": "^0.1",
+        "groupesti/laravel-ca-crl": "^0.1",
+        "groupesti/laravel-ca-ocsp": "^0.1",
+        "groupesti/laravel-ca-pkcs12": "^0.1",
+        "groupesti/laravel-ca-oid": "^0.1",
+        "groupesti/laravel-ca-acme": "^0.1",
+        "groupesti/laravel-ca-scep": "^0.1",
+        "groupesti/laravel-ca-est": "^0.1",
+        "groupesti/laravel-ca-tsa": "^0.1",
+        "groupesti/laravel-ca-cms": "^0.1",
+        "groupesti/laravel-ca-policy": "^0.1",
+        "groupesti/laravel-ca-ui": "^0.1"
+    },
+    "keywords": ["laravel", "pki", "certificate-authority", "ca", "x509", "ssl", "tls", "certificate", "ocsp", "crl", "acme", "scep", "est"],
+    "authors": [
+        {
+            "name": "Groupe STI",
+            "email": "dev@groupesti.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
